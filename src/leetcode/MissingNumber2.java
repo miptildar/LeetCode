@@ -1,4 +1,4 @@
-package problems;
+package leetcode;
 
 public class MissingNumber2 {
     public int solution(int[] A) {

@@ -1,6 +1,4 @@
-package problems;
-
-import java.util.List;
+package leetcode;
 
 public class MergeKSortedLists {
 

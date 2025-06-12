@@ -1,4 +1,4 @@
-package problems;
+package leetcode;
 
 import java.util.LinkedList;
 import java.util.List;
