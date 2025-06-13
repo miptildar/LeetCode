@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.binary_tree;
 
 // similar to SameTree problem, but with small modifications
 public class SymmetricTree {
