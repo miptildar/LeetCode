@@ -3,14 +3,16 @@ package leetcode.heap;
 import java.util.HashMap;
 import java.util.Map;
 
-class ReorganizeString {
+// Runtime Beats 85.66%
+// Memory Beats 75.23%
+class SortCharactersByFrequency {
 
     CharCount[] heap;
     int size = 0;
 
     Map<Character, CharCount> countMap = new HashMap<>();
 
-    public String reorganizeString(String s) {
+    public String frequencySort(String s) {
         if (s.length() == 1) {
             return s;
         }
@@ -34,55 +36,14 @@ class ReorganizeString {
         CharCount current = getMax();
         while (current != null) {
 
-            CharCount next = getMax();
-            if (next == null) {
-
-                // try to put remaining chars into different places within a string
-                int i = 0;
-                while (i < sb.length() && current.count > 0 ) {
-                    if (i == 0 && sb.charAt(i) != current.c) {
-                        sb.insert(0, current.c);
-                        current.count--;
-                        i++;
-                        continue;
-                    }
-
-                    if (i == sb.length() - 1 && sb.charAt(i) != current.c) {
-                        sb.insert(sb.length(), current.c);
-                        current.count--;
-                        break;
-                    }
-
-                    if (sb.charAt(i) != current.c && sb.charAt(i+1) != current.c) {
-                        sb.insert(i+1, current.c);
-                        current.count--;
-                        i++;
-                        continue;
-                    }
-
-                    i++;
-                }
-
-                if (current.count == 0) {
-                    return sb.toString();
-                }
-
-                return "";
-            }
-
-            for (int i=0; i<next.count; i++) {
-                sb.append(current.c).append(next.c);
-            }
-
-            current.count -= next.count;
-            if (current.count > 0) {
-                add(current);
-            }
+            for (int i=0;i<current.count; i++)
+                sb.append(current.c);
 
             current = getMax();
         }
 
         return sb.toString();
+
     }
 
     void add(CharCount charCount) {
@@ -145,5 +106,4 @@ class ReorganizeString {
             this.c = c;
         }
     }
-
 }
