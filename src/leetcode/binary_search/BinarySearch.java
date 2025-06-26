@@ -1,35 +1,28 @@
 package leetcode.binary_search;
 
 public class BinarySearch {
-    public static int binarySearch (int[] nums, int target) {
 
-        if (nums.length == 0) {
+    public int search(int[] nums, int target) {
+        if (nums.length == 1) {
+            if (nums[0] == target) return 0;
             return -1;
         }
 
         int left = 0;
         int right = nums.length - 1;
-        while (right - left > 1) {
-            int middle = (right + left) / 2;
-            int middleValue = nums[middle];
-            if (middleValue == target) {
+        while (right - left >= 0) {
+            int middle = (left + right) / 2;
+
+            if (nums[middle] == target)
                 return middle;
-            }
 
-            if (target > middleValue) {
-                left = middle;
+            if (target < nums[middle]) {
+                right = middle - 1;
             } else {
-                right = middle;
+                left = middle + 1;
             }
         }
 
-        if (nums[left] == target) {
-            return left;
-        }
-
-        if (nums[right] == target) {
-            return right;
-        }
         return -1;
     }
 }
