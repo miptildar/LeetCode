@@ -1,6 +1,6 @@
 package leetcode.heap;
 
-public class LastStoneWeight {
+class LastStoneWeight {
 
     int heap[];
     int size = 0;

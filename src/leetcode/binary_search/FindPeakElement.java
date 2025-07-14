@@ -1,6 +1,6 @@
 package leetcode.binary_search;
 
-public class FindPeakElement {
+class FindPeakElement {
 
     public static void main(String[] args) {
         System.out.println(new FindPeakElement().findPeakElement(new int[]{1,2,1,2,1}));

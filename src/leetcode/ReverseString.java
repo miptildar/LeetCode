@@ -1,6 +1,6 @@
 package leetcode;
 
-public class ReverseString {
+class ReverseString {
     public void reverseString(char[] s) {
         int length = s.length;
         for (int i=0; i < length / 2; i++) {

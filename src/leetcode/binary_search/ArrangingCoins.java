@@ -1,6 +1,6 @@
 package leetcode.binary_search;
 
-public class ArrangingCoins {
+class ArrangingCoins {
 
     public static void main(String[] args) {
         System.out.println(new ArrangingCoins().arrangeCoins(1_804_289_383));

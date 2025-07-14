@@ -1,6 +1,6 @@
 package leetcode;
 
-public class FirstUniqueCharacterInString {
+class FirstUniqueCharacterInString {
     public int firstUniqChar(String s) {
         int[] charTimes = new int[26];
         for (int i=0; i<s.length(); i++) {

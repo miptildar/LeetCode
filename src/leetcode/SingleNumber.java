@@ -1,6 +1,6 @@
 package leetcode;
 
-public class SingleNumber {
+class SingleNumber {
     public int singleNumber(int[] nums) {
         int length = nums.length;
         if (length == 1) return nums[0];

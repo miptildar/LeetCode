@@ -1,6 +1,6 @@
 package leetcode.binary_tree;
 
-public class InsertIntoBinarySearchTree {
+class InsertIntoBinarySearchTree {
 
     public TreeNode insertIntoBST(TreeNode root, int val) {
         if (root == null) {

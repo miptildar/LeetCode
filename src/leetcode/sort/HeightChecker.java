@@ -1,6 +1,6 @@
 package leetcode.sort;
 
-public class HeightChecker {
+class HeightChecker {
 
     public static void main(String[] args) {
         new HeightChecker().heightChecker(new int[]{1,1,4,2,1,3});

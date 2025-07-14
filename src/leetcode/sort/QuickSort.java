@@ -2,7 +2,7 @@ package leetcode.sort;
 
 import java.util.Arrays;
 
-public class QuickSort {
+class QuickSort {
 
     public static void quickSort(int[] arr, int low, int high) {
         System.out.println("quickSort ("+low+", "+high+")");

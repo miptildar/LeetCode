@@ -2,7 +2,7 @@ package educative;
 
 import java.util.*;
 
-public class TaskScheduler {
+class TaskScheduler {
 
     public static void main(String[] args) {
         leastInterval(new char[]{'A', 'B', 'C', 'O', 'Q', 'C', 'Z', 'O', 'X', 'C', 'W', 'Q', 'Z', 'B', 'M', 'N', 'R', 'L', 'C', 'J'}, 10);

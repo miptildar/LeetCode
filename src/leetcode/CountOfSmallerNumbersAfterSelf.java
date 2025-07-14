@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class CountOfSmallerNumbersAfterSelf {
+class CountOfSmallerNumbersAfterSelf {
 
     public static void main(String[] args) {
         List<Integer> integers = new Solution().countSmaller(new int[]{ 0,2,1 });

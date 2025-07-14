@@ -1,6 +1,6 @@
 package leetcode.binary_tree;
 
-public class SameTree {
+class SameTree {
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
         return dfs(p, q, true);

@@ -1,6 +1,6 @@
 package leetcode.sort;
 
-public class SortList {
+class SortList {
 
     public static void main(String[] args) {
         ListNode head = new ListNode(4);

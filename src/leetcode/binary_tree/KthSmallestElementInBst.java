@@ -1,6 +1,6 @@
 package leetcode.binary_tree;
 
-public class KthSmallestElementInBst {
+class KthSmallestElementInBst {
 
     public int kthSmallest(TreeNode root, int k) {
         inOrderDfs(root, k, 0);

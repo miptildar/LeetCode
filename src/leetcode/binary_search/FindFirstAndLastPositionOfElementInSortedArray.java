@@ -1,6 +1,6 @@
 package leetcode.binary_search;
 
-public class FindFirstAndLastPositionOfElementInSortedArray {
+class FindFirstAndLastPositionOfElementInSortedArray {
 
     public static void main(String[] args) {
         new FindFirstAndLastPositionOfElementInSortedArray().searchRange(new int[]{1,3}, 1);

@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.HashSet;
 
-public class OddOccurrencesInArray {
+class OddOccurrencesInArray {
     public int solution(int[] A) {
         HashSet<Integer> pairs = new HashSet<Integer>();
         for (int i=0; i<A.length; i++) {

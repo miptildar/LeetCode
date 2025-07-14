@@ -1,6 +1,6 @@
 package leetcode.binary_search;
 
-public class FirstBadVersion {
+class FirstBadVersion {
     public int firstBadVersion(int n) {
         int left = 1;
         int right = n;

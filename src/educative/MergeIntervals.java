@@ -2,7 +2,7 @@ package educative;
 
 import java.util.*;
 
-public class MergeIntervals {
+class MergeIntervals {
 
     public static void main(String[] args) {
         mergeIntervals(new int[][]{{4,6},{3,7},{1,5}});

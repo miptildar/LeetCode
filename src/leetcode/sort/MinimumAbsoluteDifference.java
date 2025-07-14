@@ -3,7 +3,7 @@ package leetcode.sort;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MinimumAbsoluteDifference {
+class MinimumAbsoluteDifference {
 
     public static void main(String[] args) {
         new MinimumAbsoluteDifference().minimumAbsDifference(new int[] {4,2,1,3});

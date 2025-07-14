@@ -1,6 +1,6 @@
 package leetcode.binary_search;
 
-public class SearchInsertPosition {
+class SearchInsertPosition {
 
     public int searchInsert(int[] nums, int target) {
         int size = nums.length;

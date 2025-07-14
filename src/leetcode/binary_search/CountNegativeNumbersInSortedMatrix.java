@@ -1,6 +1,6 @@
 package leetcode.binary_search;
 
-public class CountNegativeNumbersInSortedMatrix {
+class CountNegativeNumbersInSortedMatrix {
 
     public static void main(String[] args) {
         new CountNegativeNumbersInSortedMatrix().countNegatives(new int[][]{

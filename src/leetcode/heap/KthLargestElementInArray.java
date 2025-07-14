@@ -1,6 +1,6 @@
 package leetcode.heap;
 
-public class KthLargestElementInArray {
+class KthLargestElementInArray {
 
     public static void main(String[] args) {
         System.out.println(new KthLargestElementInArray().findKthLargest(new int[]{3, 2, 1, 5, 6, 4}, 2));

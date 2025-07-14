@@ -1,6 +1,6 @@
 package leetcode.binary_search;
 
-public class GuessNumberHigherOrLower {
+class GuessNumberHigherOrLower {
 
     int pick = 1702766719;
 

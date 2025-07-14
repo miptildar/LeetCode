@@ -1,6 +1,6 @@
 package leetcode.binary_tree;
 
-public class PathSum {
+class PathSum {
 
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) {

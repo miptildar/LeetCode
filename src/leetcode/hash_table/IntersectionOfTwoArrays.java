@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class IntersectionOfTwoArrays {
+class IntersectionOfTwoArrays {
 
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> first = new HashSet<>();

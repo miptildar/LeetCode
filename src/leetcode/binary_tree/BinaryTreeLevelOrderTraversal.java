@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class BinaryTreeLevelOrderTraversal {
+class BinaryTreeLevelOrderTraversal {
 
     public static void main(String[] args) {
         TreeNode n15 = new TreeNode(15, null, null);

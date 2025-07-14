@@ -3,7 +3,7 @@ package educative;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LongestSubstringWithoutRepeatingChars {
+class LongestSubstringWithoutRepeatingChars {
 
     public static void main(String[] args) {
         System.out.println(findLongestSubstring("abcdbea"));

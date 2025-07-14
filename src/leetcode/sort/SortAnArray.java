@@ -1,7 +1,7 @@
 package leetcode.sort;
 
 // heap sort
-public class SortAnArray {
+class SortAnArray {
     int[] heap;
     int size = 0;
 

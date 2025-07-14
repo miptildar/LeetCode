@@ -1,6 +1,6 @@
 package leetcode;
 
-public class MissingNumber2 {
+class MissingNumber2 {
     public int solution(int[] A) {
         int size = A.length;
         int val = 0;

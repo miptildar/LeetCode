@@ -3,7 +3,7 @@ package educative;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LongestRepeatingCharacterReplacement {
+class LongestRepeatingCharacterReplacement {
 
     public static void main(String[] args) {
         longestRepeatingCharacterReplacement(

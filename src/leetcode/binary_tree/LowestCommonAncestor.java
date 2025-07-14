@@ -1,6 +1,6 @@
 package leetcode.binary_tree;
 
-public class LowestCommonAncestor {
+class LowestCommonAncestor {
 
     public static void main(String[] args) {
         TreeNode n7 = new TreeNode(7);

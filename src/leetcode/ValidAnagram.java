@@ -1,6 +1,6 @@
 package leetcode;
 
-public class ValidAnagram {
+class ValidAnagram {
 
     public static void main(String[] args) {
         new ValidAnagram().isAnagram("rat", "car");

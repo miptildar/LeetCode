@@ -1,6 +1,6 @@
 package leetcode;
 
-public class MergeKSortedLists {
+class MergeKSortedLists {
 
     public static void main(String[] args) {
         ListNode root = new ListNode();
