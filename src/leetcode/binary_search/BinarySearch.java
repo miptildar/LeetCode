@@ -1,6 +1,6 @@
 package leetcode.binary_search;
 
-public class BinarySearch {
+class BinarySearch {
 
     public int search(int[] nums, int target) {
         if (nums.length == 1) {

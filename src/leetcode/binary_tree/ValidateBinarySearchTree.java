@@ -1,6 +1,6 @@
 package leetcode.binary_tree;
 
-public class ValidateBinarySearchTree {
+class ValidateBinarySearchTree {
 
     public static void main(String[] args) {
         TreeNode n1 = new TreeNode(1);

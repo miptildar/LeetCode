@@ -1,6 +1,6 @@
 package leetcode.binary_tree;
 
-public class DiameterOfBinaryTree {
+class DiameterOfBinaryTree {
 
     public int diameterOfBinaryTree(TreeNode root) {
 

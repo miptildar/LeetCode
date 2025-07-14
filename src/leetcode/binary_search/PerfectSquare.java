@@ -1,6 +1,6 @@
 package leetcode.binary_search;
 
-public class PerfectSquare {
+class PerfectSquare {
 
     public static void main(String[] args) {
         new PerfectSquare().isPerfectSquare(1804289383);

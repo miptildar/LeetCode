@@ -1,6 +1,6 @@
 package educative;
 
-public class Statement {
+class Statement {
 
     public static void main(String[] args) {
         sortColors(new int[] {0,1,0});

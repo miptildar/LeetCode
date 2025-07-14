@@ -1,6 +1,6 @@
 package leetcode;
 
-public class ValidPalindrome {
+class ValidPalindrome {
 
     public static void main(String[] args) {
         boolean palindrome = new ValidPalindrome().isPalindrome("A man, a plan, a canal: Panama");

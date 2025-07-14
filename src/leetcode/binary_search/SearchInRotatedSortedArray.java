@@ -1,7 +1,7 @@
 package leetcode.binary_search;
 
 // beat 100% Runtime, 97% Memory
-public class SearchInRotatedSortedArray {
+class SearchInRotatedSortedArray {
 
     public int search(int[] nums, int target) {
 

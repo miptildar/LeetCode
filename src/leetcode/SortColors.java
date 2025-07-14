@@ -1,6 +1,6 @@
 package leetcode;
 
-public class SortColors {
+class SortColors {
 
     static final int RED = 0;
     static final int WHITE = 1;

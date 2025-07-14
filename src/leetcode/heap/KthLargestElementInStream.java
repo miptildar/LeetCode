@@ -3,7 +3,7 @@ package leetcode.heap;
 import java.util.ArrayList;
 import java.util.List;
 
-public class KthLargestElementInStream {
+class KthLargestElementInStream {
 
     List<Integer> heap;
     int size = 0;

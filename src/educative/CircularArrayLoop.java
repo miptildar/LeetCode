@@ -1,7 +1,7 @@
 package educative;
 import java.util.*;
 
-public class CircularArrayLoop {
+class CircularArrayLoop {
 
     public static void main(String[] args) {
         circularArrayLoop(new int[]{2,1,-1,-2});

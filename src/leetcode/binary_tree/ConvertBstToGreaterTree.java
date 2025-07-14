@@ -1,7 +1,7 @@
 package leetcode.binary_tree;
 
 // inorder, but right node first
-public class ConvertBstToGreaterTree {
+class ConvertBstToGreaterTree {
 
     public TreeNode convertBST(TreeNode root) {
         if (root == null) {

@@ -1,6 +1,6 @@
 package leetcode.binary_tree;
 
-public class InvertBinaryTree {
+class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if (root == null) {
             return null;

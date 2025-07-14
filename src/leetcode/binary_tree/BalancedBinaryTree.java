@@ -1,7 +1,7 @@
 package leetcode.binary_tree;
 
 // postorder is necessary
-public class BalancedBinaryTree {
+class BalancedBinaryTree {
 
     public static void main(String[] args) {
         TreeNode n15 = new TreeNode(15, null, null);

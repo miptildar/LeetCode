@@ -1,6 +1,6 @@
 package leetcode;
 
-public class CounterGame {
+class CounterGame {
     public static String counterGame(long n) {
         int steps = 0;
 

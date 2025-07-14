@@ -1,7 +1,7 @@
 package leetcode.binary_tree;
 
 // similar to SameTree problem, but with small modifications
-public class SymmetricTree {
+class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         if (root == null) {
             return true;

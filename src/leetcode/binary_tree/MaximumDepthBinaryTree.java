@@ -1,6 +1,6 @@
 package leetcode.binary_tree;
 
-public class MaximumDepthBinaryTree {
+class MaximumDepthBinaryTree {
 
     public static void main(String[] args) {
         TreeNode n15 = new TreeNode(15, null, null);

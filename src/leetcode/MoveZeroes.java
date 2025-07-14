@@ -1,6 +1,6 @@
 package leetcode;
 
-public class MoveZeroes {
+class MoveZeroes {
 
     // 0 1 3 5
     // 0 2 0 3 8

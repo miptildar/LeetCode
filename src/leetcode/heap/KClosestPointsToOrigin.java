@@ -1,6 +1,6 @@
 package leetcode.heap;
 
-public class KClosestPointsToOrigin {
+class KClosestPointsToOrigin {
 
     Point[] heap;
     int size = 0;

@@ -1,6 +1,6 @@
 package leetcode;
 
-public class ReverseLinkedList {
+class ReverseLinkedList {
 
     public ListNode reverseList(ListNode head) {
 

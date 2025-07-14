@@ -1,6 +1,6 @@
 package leetcode.binary_search;
 
-public class Sqrt {
+class Sqrt {
 
     public int mySqrt(int x) {
 
